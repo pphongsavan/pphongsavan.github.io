@@ -1,0 +1,149 @@
+#toolbar {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 0px 10px;
+  width: 100%;
+  color: #333;
+  background-color: #C0F0C2;
+  z-index: 1;
+}
+
+body {
+  font-family: "Verdana";
+  margin: 0;
+}
+
+#aboutText {
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-bottom: 10px;
+
+}
+
+#welcome-section {
+  min-height: 100vh;
+  background-color: #C0F0C2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#projects {
+  background-color: #414739;
+  color: #f3f3f3;
+}
+
+#credits {
+  background-color: #C0F0C2;
+  clear: both;
+  width: 100%;
+  height: auto;
+  text-height: 100%;
+  padding: 10px;
+  font-family: "Verdana";
+}
+
+.section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-tile {
+  max-height: 500px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+#profile-link {
+  cursor: pointer;
+  appearance: button;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  min-width: 100px;
+  color: inherit;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#tiles {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 25px 25px 25px 25px;
+  display: inline;
+}
+
+#contact {
+  background-color: #c0eef0;
+  padding-bottom: 200px;
+}
+
+
+@media (min-width: 768px) {
+  toolbar {
+   justify-content: flex-end;
+  }
+  
+  #navbar {
+    flex-direction: row;
+  }
+  
+  #tiles {
+    display: flex;
+    flex-direction: row;
+
+  }
+  
+  #logo-links {
+    flex-direction: row;
+  }
+  
+  .logo {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 25px 25px 25px 25px;
+  }
+}
