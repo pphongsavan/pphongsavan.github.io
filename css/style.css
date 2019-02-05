@@ -86,13 +86,18 @@ nav a {
 	color: inherit;
 }
 
+nav a:hover {
+	text-decoration: underline;
+}
+
 #contact a {
 	text-decoration: none;
 	color: inherit;
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 2.8rem;
+	text-align: center;
 }
 
 h2 {
