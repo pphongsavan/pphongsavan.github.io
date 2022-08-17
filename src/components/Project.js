@@ -4,7 +4,7 @@ const Project = ({ projectItem }) => {
         <a href={projectItem.link} 
             target="_blank" 
             rel="noopener noreferrer" 
-            id={projectItem.id} 
+            id={projectItem.id}
             alt={projectItem.alt} 
             className="project-img">
         <img src={projectItem.image} alt={projectItem.alt}></img>

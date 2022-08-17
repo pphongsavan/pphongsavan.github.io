@@ -7,7 +7,7 @@ const Contact = () => {
         <div id="contactTitle" className="section-title">
           <h2 className="bold">Contact</h2>  
         </div>
-        <span class="contact-span">
+        <span className="contact-span">
           Have any comments on my stuff? Want to work together? You can contact me with the form or on my LinkedIn page below.
         </span>
         <ContactForm />

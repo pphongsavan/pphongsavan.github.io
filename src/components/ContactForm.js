@@ -66,12 +66,11 @@ const ContactForm = () => {
                 </div>
 
 
-                <div className=''>
-                    <div className=''>
-                        <button type="submit" className="btn btn-primary">Submit</button>
-                    </div>
+                <div className='form-group row'>
+                    <button type="submit" className="btn btn-primary">Submit</button>
                 </div>
-                <span className={emailSent ? "visible" : null}>Thank you for your interest, Talk to you soon!</span>
+                
+                <span style={{ display: emailSent ? "block" : "none" }}>Thank you for your interest, Talk to you soon!</span>
             </div>
         </form>
     )
